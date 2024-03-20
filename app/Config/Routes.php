@@ -24,3 +24,6 @@ $routes->group('clientes', static function ($routes) {
     $routes->get('obtenerNombreClientePorCedula', 'DispositivoController::obtenerNombreClientePorCedula');
     $routes->post('guardar', 'DispositivoController::registrarDispositivo');
  });
+ $routes->group('ordenes', static function ($routes) {
+    $routes->get('/', 'OrdenController::listado');
+ });
