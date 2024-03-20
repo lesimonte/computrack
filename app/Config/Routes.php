@@ -7,20 +7,20 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-// Obtener todos los clientes
-$routes->get('/clientes', 'ClienteController::listado');
+$routes->group('clientes', static function ($routes) {
+    $routes->get('/', 'ClienteController::listado'); // Obtener todos los clientes
+    $routes->delete('delete/(:num)', 'ClienteController::delete/$1');// Borrar
+    $routes->get('nuevo', 'ClienteController::crear');// Crear
+    $routes->post('guardar', 'ClienteController::guardar');
+    $routes->get('editar/(:num)', 'ClienteController::editar/$1');// Editar
+    $routes->post('actualizar/(:num)', 'ClienteController::actualizar/$1');
+    $routes->get('buscar', 'ClienteController::buscar');
+});
 
-// Borrar
-$routes->delete('/clientes/delete/(:num)', 'ClienteController::delete/$1');
-
-// Crear
-$routes->get('/clientes/nuevo', 'ClienteController::crear');
-
-$routes->post('clientes/guardar', 'ClienteController::guardar');
-
-// Editar
-$routes->get('clientes/editar/(:num)', 'ClienteController::editar/$1');
-$routes->post('clientes/actualizar/(:num)', 'ClienteController::actualizar/$1');
-
-
-$routes->get('/clientes/buscar', 'ClienteController::buscar');
+ $routes->group('dispositivos', static function ($routes) {
+    $routes->get('/', 'DispositivoController::listado');
+    $routes->get('nuevo', 'DispositivoController::crear'); 
+    $routes->get('obtenerClientes', 'DispositivoController::obtenerClientes');
+    $routes->get('obtenerNombreClientePorCedula', 'DispositivoController::obtenerNombreClientePorCedula');
+    $routes->post('guardar', 'DispositivoController::registrarDispositivo');
+ });

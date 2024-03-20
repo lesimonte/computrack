@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="<?= base_url('/clientes')?>">
-        <img class="img-fluid w-75" src="<?= base_url('/imagenes/logo_app.png')?>" alt="">
+        <img class="img-fluid w-50" src="<?= base_url('/imagenes/logo_app.png')?>" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
           <a class="nav-link" href="<?= base_url('/clientes')?>">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Caja</a>
+          <a class="nav-link" href="<?= base_url('/dispositivos')?>">Dispositivos</a>
         </li>
       </ul>
     </div>

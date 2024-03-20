@@ -1,0 +1,17 @@
+CRITICAL - 2024-03-20 13:34:05 --> ParseError: syntax error, unexpected identifier "funtion", expecting ":"
+in APPPATH\Config\Routes.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 13:47:45 --> ParseError: Unclosed '(' on line 20
+in APPPATH\Config\Routes.php on line 22.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 16:15:28 --> BadMethodCallException: Call to undefined method App\Models\DispositivoModel::obtenerDispositivosConCliente
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\DispositivoController.php(18): CodeIgniter\Model->__call('obtenerDispositivosConCliente', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->listado()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

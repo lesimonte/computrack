@@ -74,6 +74,7 @@ class ClienteController extends BaseController
                             ->findAll();
 
         // Pasar los resultados de la búsqueda a la vista
-        return view('clientes/listado', ['clientes' => $clientes]);
+       return view('clientes/listado', ['clientes' => $clientes]);
+
     }
 }
