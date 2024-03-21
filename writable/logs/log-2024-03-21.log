@@ -1,0 +1,44 @@
+CRITICAL - 2024-03-21 15:58:39 --> ErrorException: Undefined variable $ordenes
+in APPPATH\Views\ordenes\listado.php on line 14.
+ 1 APPPATH\Views\ordenes\listado.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordenes', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ordenes/listado', [], true)
+ 5 APPPATH\Controllers\OrdenController.php(16): view('ordenes/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 16:00:11 --> ErrorException: Undefined variable $ordenes
+in APPPATH\Views\ordenes\listado.php on line 14.
+ 1 APPPATH\Views\ordenes\listado.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordenes', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ordenes/listado', [], true)
+ 5 APPPATH\Controllers\OrdenController.php(16): view('ordenes/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 16:00:25 --> ErrorException: Undefined variable $ordenes
+in APPPATH\Views\ordenes\listado.php on line 14.
+ 1 APPPATH\Views\ordenes\listado.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordenes', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ordenes/listado', [], true)
+ 5 APPPATH\Controllers\OrdenController.php(16): view('ordenes/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-21 16:02:02 --> ErrorException: Undefined variable $ordenes
+in APPPATH\Views\ordenes\listado.php on line 14.
+ 1 APPPATH\Views\ordenes\listado.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ordenes', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ordenes/listado', [], true)
+ 5 APPPATH\Controllers\OrdenController.php(16): view('ordenes/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
