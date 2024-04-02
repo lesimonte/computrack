@@ -1,3 +1,4 @@
+
 <?= $this->extend('plantilla') ?>
 
 <?= $this->section('contenido') ?>
@@ -14,7 +15,7 @@
             </div>
         </div>
         <div class="col-lg-8">
-            <h3 id="nombreCliente">nombreCliente</h3>
+            <h3 id="nombreCliente"></h3>
         </div>
     </div>
     <div class="row mt-4">
