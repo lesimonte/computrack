@@ -1,0 +1,22 @@
+INFO - 2024-04-03 13:17:33 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+CRITICAL - 2024-04-03 14:27:37 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\facturaController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-04-03 14:28:01 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+CRITICAL - 2024-04-03 14:28:01 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\facturaController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-04-03 14:28:29 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:28:30 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:28:37 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 14:29:39 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 14:30:02 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:36:25 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 14:36:54 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-03 14:37:25 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:42:34 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-03 14:45:00 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear

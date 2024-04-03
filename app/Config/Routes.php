@@ -39,4 +39,6 @@ $routes->group('ordenes', static function ($routes) {
 $routes->group('facturas', static function ($routes) {
     $routes->addRedirect('/', 'facturas/crear');
     $routes->get('crear', 'FacturaController::crear');
+    $routes->get('cobrar/(:num)', 'FacturaController::cobrar/$1');
+    $routes->post('procesar_cobro', 'FacturaController::procesar_cobro');
 });
