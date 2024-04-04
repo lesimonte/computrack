@@ -16,6 +16,23 @@ class OrdenController extends BaseController
         $ordenModel = new OrdenModel();
         $ordenes = $ordenModel->findAll();
 
+        // Cargar el modelo cliente
+        $clienteModel = new ClienteModel();
+
+        // Mostrar los nombres de los clientes asociados al dispositivo
+        foreach ($ordenes as &$orden) {
+            $dispositivoId = $orden['dispositivo_id'];
+            $cliente = $clienteModel->join('dispositivos', 'clientes.id = dispositivos.cliente_id')->where('dispositivos.id', $dispositivoId)->first();
+
+            if ($cliente) {
+                // Asignar el nombre del cliente a la orden
+                $orden['nombre_cliente'] = $cliente['nombres'] . ' ' . $cliente['apellidos'];
+
+            } else {
+                $orden['nombre_cliente'] = 'No existe el cliente';
+            }
+        }
+
         $data['ordenes'] = $ordenes;
         return view('ordenes/listado', $data);
     }

@@ -44,8 +44,13 @@ Options -Indexes
 	ErrorDocument 404 index.php
 </IfModule>
 
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+
 # Disable server signature start
 	ServerSignature Off
 # Disable server signature end
 
-SetEnv CI_ENVIRONMENT development
+#SetEnv CI_ENVIRONMENT development

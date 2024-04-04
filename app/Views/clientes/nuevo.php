@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-lg-4 mx-auto">
             <h1 class="mb-2 display-6">Nuevo Cliente</h1>
-            <form action="<?= base_url('clientes/guardar') ?>" method="post">
+            <form id="crearCliente" action="<?= base_url('clientes/guardar') ?>" method="post">
 
                 <div class="mb-3">
                     <label for="nombres">Nombres:</label>

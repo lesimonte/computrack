@@ -19,17 +19,17 @@
 					<?php if ($orden['estado'] == $estado): ?>
 						<div class="card">
 							<h5 class="card-header">
-								<?= $orden['dispositivo_id'] ?>
+								<?= $orden['nombre_cliente'] ?>
 							</h5>
 							<div class="card-body">
 								<p class="card-text">
 									<?= $orden['observaciones'] ?>
 								</p>
 								<span class="badge rounded-pill 
-																								<?php if ($orden['estado'] == 'pendiente'): ?>text-bg-warning
-																								<?php elseif ($orden['estado'] == 'enCurso'): ?>text-bg-primary
-																								<?php elseif ($orden['estado'] == 'finalizado'): ?>text-bg-success
-																								<?php endif; ?>">
+									<?php if ($orden['estado'] == 'pendiente'): ?>text-bg-warning
+									<?php elseif ($orden['estado'] == 'enCurso'): ?>text-bg-primary
+									<?php elseif ($orden['estado'] == 'finalizado'): ?>text-bg-success
+									<?php endif; ?>">
 									<?= $orden['fechaIngreso'] ?>
 								</span>
 								<?php if ($orden['estado'] != 'finalizado'): ?>
